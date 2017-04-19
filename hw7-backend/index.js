@@ -2,6 +2,10 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
+if (process.env.NODE_ENV !== "production") {
+    require('dotenv').load()
+}
+
 const hello = (req, res) => res.send({ hello: 'world' })
 const middleware = (req, res, next) => {
     res.header('Access-Control-Allow-Origin',req.headers.origin)
@@ -32,7 +36,3 @@ const server = app.listen(port, () => {
      const addr = server.address()
      console.log(`Server listening at http://${addr.address}:${addr.port}`)
 })
-
-if (process.env.NODE_ENV !== "production") {
-    require('dotenv').load()
-}

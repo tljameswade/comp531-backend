@@ -3,3 +3,5 @@ node-debug.log
 .env
 .env
 .env
+node_modules
+npm-debug.log
