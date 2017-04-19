@@ -1,0 +1,22 @@
+
+> RiceBookServer@0.0.0 test /Users/suozhiqi/Desktop/531backend
+> mocha --opts mocha.opts src/**/*.spec.js "--reporter" "xunit"
+
+<testsuite name="Mocha Tests" tests="16" failures="0" errors="0" skipped="0" timestamp="Tue, 04 Apr 2017 04:46:53 GMT" time="0.129">
+<testcase classname="Validate article functionality" name="should give me three or more articles" time="0.037"/>
+<testcase classname="Validate article functionality" name="adds a new article to the list of all articles and return the newly added article" time="0.033"/>
+<testcase classname="Validate article functionality" name="should return an article with a specified id" time="0.003"/>
+<testcase classname="Validate article functionality" name="should return nothing for an invalid id" time="0.003"/>
+<testcase classname="Validate profile functionality" name="returns headline message for default user" time="0.003"/>
+<testcase classname="Validate profile functionality" name="returns a headline message, one for each user in url" time="0.004"/>
+<testcase classname="Validate profile functionality" name="updates default user's headline" time="0.006"/>
+<testcase classname="Validate profile functionality" name="returns the email for default user" time="0.003"/>
+<testcase classname="Validate profile functionality" name="returns the email for a specified user" time="0.003"/>
+<testcase classname="Validate profile functionality" name="updates default user's email" time="0.004"/>
+<testcase classname="Validate profile functionality" name="returns the zipcode for default user" time="0.002"/>
+<testcase classname="Validate profile functionality" name="returns the zipcode for a specified user" time="0.002"/>
+<testcase classname="Validate profile functionality" name="updates default user's zipcode" time="0.005"/>
+<testcase classname="Validate profile functionality" name="returns the avatar for default user" time="0.003"/>
+<testcase classname="Validate profile functionality" name="returns an avatar message, one for each user in url" time="0.003"/>
+<testcase classname="Validate profile functionality" name="updates default user's avatar" time="0.005"/>
+</testsuite>
