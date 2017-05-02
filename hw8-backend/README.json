@@ -1,0 +1,5 @@
+{
+  "netid": "sq6",
+  "frontend": "http://jamesqifullwebapp.surge.sh",
+  "backend": "https://comp531fullwebapp.herokuapp.com"
+}
